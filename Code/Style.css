@@ -1,0 +1,156 @@
+/* تنظیمات عمومی استایل‌ها */
+.content-wrapper {
+    background-color: #ecf0f18a;
+    padding: 15px;
+    max-width: 680px;
+    margin: auto;
+    direction: rtl;
+    font-family: "B Nazanin", IranNastaliq, Tahoma;
+    font-size: 14pt;
+    border-radius: 10px;
+    color: #333;
+}
+
+/* استایل‌های مرتبط با ایکون‌های شبکه‌های اجتماعی */
+.social-icons {
+    text-align: center;
+    margin-top: 10px;
+    /* فاصله کمتر */
+    padding: 15px;
+}
+
+.social-icons p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.social-icons a {
+    font-family: "Arial", sans-serif;
+    font-size: 14pt;
+    color: red;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #89058e;
+    font-weight: bold;
+}
+
+/* استایل‌های مرتبط با قسمت لغو اشتراک */
+.unsubscribe {
+    font-size: 11pt;
+    text-align: center;
+    color: #888;
+    padding-top: 20px;
+}
+
+.unsubscribe a {
+    color: #888;
+    text-decoration: none;
+    font-family: "Arial", sans-serif;
+    font-size: 10pt;
+}
+
+.unsubscribe-box {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #888;
+    color: #fff;
+    font-size: 12pt;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: "Arial", sans-serif;
+}
+
+/* تنظیمات کلی استایل‌های عمومی */
+.container {
+    background-color: #ecf0f18a;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+body {
+    background-color: #fff;
+    text-align: right;
+    direction: rtl;
+}
+
+.highlight-box {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #89058e;
+    color: white;
+    font-size: 12pt;
+    /* اندازه فونت کوچک‌تر */
+    font-family: "Arial", sans-serif;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* استایل‌های مرتبط با عناصر برجسته */
+p strong {
+    font-weight: bold;
+    font-family: "Arial", sans-serif;
+    color: #89058e;
+}
+
+.offer-highlight {
+    font-size: 16pt;
+    font-family: "Arial", sans-serif;
+    color: red;
+    font-weight: bold;
+}
+
+.gift-code {
+    font-size: 18pt;
+    color: red;
+    font-weight: bold;
+}
+
+strike {
+    color: #888;
+}
+
+/* استایل‌های مربوط به دوره‌های آموزشی */
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    /* کاهش فاصله */
+}
+
+.course {
+    width: 150px;
+    /* عرض مربعات */
+    margin: 5px;
+    /* فاصله بین مربعات */
+    padding: 8px;
+    /* اندازه مربعات */
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Arial", sans-serif;
+}
+
+.yellow {
+    background-color: #ffeb3b;
+    /* رنگ زرد */
+    line-height: 50px;
+}
+
+.pink {
+    background-color: #d5006d;
+    /* French pink */
+    line-height: 60px;
+}
+
+.blue {
+    background-color: #87ceeb;
+    /* آبی روشن */
+    line-height: 100px;
+}
